@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator-container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(17, 17, 17, 0.2);
+  }
+  
+  .calculator, .results {
+    padding: 20px;
+  }
+  
+  .calculator {
+    width: 320px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.9rem;
+    margin: 10px 0 5px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f8bebe;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .input-group span {
+    color: #980505;
+    margin: 0 5px;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  .radio-option input {
+    display: none;
+  }
+  
+  .radio-option span {
+    margin-left: 5px;
+  }
+  
+  .radio-option input:checked + span {
+    background: #a1e887;
+    border: 2px solid #8fda6e;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #a1e887;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #6b0000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background: greenyellow;
+  }
+  
+  button .icon {
+    margin-right: 8px;
+  }
+  
+  .results {
+    background: #01943f;
+    color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #resultText {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  
